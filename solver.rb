@@ -1,7 +1,7 @@
 class Solver
   def factorial(num)
     return 1 if num.zero?
-    return 'n should be a postive number' if num.negative?
+    return 'num should be a postive number' if num.negative?
 
     product = 1
     (1..num).each do |m|
